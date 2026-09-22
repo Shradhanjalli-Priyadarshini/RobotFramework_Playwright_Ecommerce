@@ -28,4 +28,4 @@ jobs:
         run: rfbrowser init
 
       - name: Run Robot Framework tests
-        run: python -m robot --outputdir results tests
+        run: python -m robot --variable HEADLESS:True --outputdir results tests
