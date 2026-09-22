@@ -1,0 +1,19 @@
+# Virtual environment
+test_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Robot Framework results
+results/
+
+# Playwright / Browser Library logs
+playwright-log.txt
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
